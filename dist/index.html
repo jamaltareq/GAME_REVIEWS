@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../src/style.css" />
+    <link rel="stylesheet" href="../src/all.min.css" />
+    <title>GAME REVIEWS</title>
+  </head>
+  <body class="bg-[#12121e]">
+    <div id="all_catagory" class="">
+      <header class="h-56 flex">
+        <nav
+          class="bg-[#000000cc] w-2/3 mx-auto rounded-3xl self-end translate-y-8 p-4 shadow-md flex justify-between items-center relative"
+        >
+          <div class="logo flex items-center">
+            <img src="../image/logo-sm.png" alt="logo" class="w-10" />
+            <span class="text-white text-xl ml-3"> GAME REVIEWS</span>
+          </div>
+          <div id="navegationOn" class="icon cursor-pointer">
+            <i class="fa-solid fa-bars text-white text-2xl"></i>
+          </div>
+          <ul
+            id="navegation"
+            class="text-white flex items-center clicabl ondisplay"
+          >
+            <li
+              class="m-3 uppercase text-sm hover:text-[#09c] text-[#09c]"
+              data-game="mmorpg"
+            >
+              mmorpg
+            </li>
+            <li
+              class="m-3 uppercase text-sm hover:text-[#09c]"
+              data-game="shooter"
+            >
+              shooter
+            </li>
+            <li
+              class="m-3 uppercase text-sm hover:text-[#09c]"
+              data-game="sailing"
+            >
+              sailing
+            </li>
+            <li
+              class="m-3 uppercase text-sm hover:text-[#09c]"
+              data-game="permadeath"
+            >
+              permadeath
+            </li>
+            <li
+              class="m-3 uppercase text-sm hover:text-[#09c]"
+              data-game="superhero"
+            >
+              superhero
+            </li>
+            <li
+              class="m-3 uppercase text-sm hover:text-[#09c]"
+              data-game="pixel"
+            >
+              pixel
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="">
+        <div
+          id="catagory"
+          class="bg-white padingcount w-4/5 text-white mt-9 mx-auto grid xl:grid-cols-3 md:grid-cols-2 gap-7 pt-11"
+        ></div>
+      </section>
+    </div>
+    <div
+      id="details-page"
+      class="w-full h-full bg-[#12121e]] absolute top-0 left-0 z-50 text-white hideen"
+    >
+      <div class="mx-auto width-totoreal relative">
+        <div class="absolute end-0 m-3" id="close_page">
+          <i class="fa-solid fa-xmark text-2xl cursor-pointer"></i>
+        </div>
+        <h1 class="fontsize">Details Game</h1>
+        <div class="flex flex-row lg:flex-col" id="Details_titel"></div>
+      </div>
+    </div>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
